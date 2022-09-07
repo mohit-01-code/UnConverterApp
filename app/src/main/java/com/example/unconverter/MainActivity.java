@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view){
-                Toast.makeText(MainActivity.this, "Conversion Successfull", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Conversion Successful", Toast.LENGTH_SHORT).show();
                 String s = editText.getText().toString();
                 float kg = Float.parseFloat(s);
                 double pound = 2.205 * kg;
